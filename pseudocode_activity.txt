@@ -1,0 +1,33 @@
+-- Pseudo Code Blue Team Selina's activity -- 
+
+Start
+
+1. Grab the alarm clock
+2. Create the alarm
+    a. Set the time for the alarm (AM/PM)
+    b. Set the mode of alarm 
+        1. Set the desired Ringer  
+            a. Song
+            b. Beat
+        2. Vibration
+        3. Silient
+    c. Show time left before alarm sets off
+    d. Set Schedule 
+        1. Every x 
+            x = Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+
+3. Set the alarm (make sure that if confirmed and set for correct day and time)
+
+When alarm rings at set time: 
+1. Click snooze
+    a. Give 5 more minutes
+    b. Give 10 more minutes
+    c. Give x more minutes
+
+    Repeat until alarm stopped:
+        Once extra time is up
+            a. Ask again for x minutes
+            b. Stop the Alarm
+
+2. Stop the alarm
+
