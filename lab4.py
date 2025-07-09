@@ -23,25 +23,29 @@ for x in list1:
 
 # #Task 3
 inventory = ["coal", "gold", "silver", "diamond", "obsidian"]
-for i in inventory: 
-    if i == "gold": 
+for block in inventory: 
+    print(f"Found {block}")
+
+    if block == "gold": 
         print("Do you want to sell this?")
-    elif i == "coal": 
+    elif block == "coal": 
         print("Do you want to start a fire?")
+    elif block == "diamond": 
+        print("Congraduations! You found the Jackpot!")
 
 
 #Bonus Challenge 
     
-# checking = True
-# while checking: 
-#     user_input = input("What is your age or type 'stop' to exit")
-#     if user_input == "stop": 
-#         checking = False
-#     elif int(user_input) >= 18:
-#         print("You are elligible to vote.")
-#     else: 
-#         print("You are not elligible to vote")
-#     user_input2 = input("Do you want to check another age?")
-#     if (user_input2 != 'Yes') and (user_input2 != 'yes'):
-#         checking = False
+checking = True
+while checking: 
+    user_input = input("What is your age or type 'stop' to exit")
+    if user_input == "stop": 
+        checking = False
+    elif int(user_input) >= 18:
+        print("You are elligible to vote.")
+    else: 
+        print("You are not elligible to vote")
+    user_input2 = input("Do you want to check another age?")
+    if (user_input2 != 'Yes') and (user_input2 != 'yes'):
+        checking = False
 
